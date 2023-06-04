@@ -13,20 +13,12 @@
 		246898ED2A2785C90050B13A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246898EB2A2785C90050B13A /* Main.storyboard */; };
 		246898EF2A2785C90050B13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246898EE2A2785C90050B13A /* Assets.xcassets */; };
 		246898F22A2785C90050B13A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246898F02A2785C90050B13A /* LaunchScreen.storyboard */; };
-		246898FD2A2785CA0050B13A /* PracticeTDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246898FC2A2785CA0050B13A /* PracticeTDDTests.swift */; };
-		246899072A2785CA0050B13A /* PracticeTDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246899062A2785CA0050B13A /* PracticeTDDUITests.swift */; };
-		246899092A2785CA0050B13A /* PracticeTDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246899082A2785CA0050B13A /* PracticeTDDUITestsLaunchTests.swift */; };
+		2468991E2A28D2740050B13A /* PracticeTDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468991D2A28D2740050B13A /* PracticeTDDTests.swift */; };
+		246899272A2C36EA0050B13A /* MoneyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246899262A2C36EA0050B13A /* MoneyFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		246898F92A2785CA0050B13A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 246898DA2A2785C90050B13A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 246898E12A2785C90050B13A;
-			remoteInfo = PracticeTDD;
-		};
-		246899032A2785CA0050B13A /* PBXContainerItemProxy */ = {
+		2468991F2A28D2740050B13A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 246898DA2A2785C90050B13A /* Project object */;
 			proxyType = 1;
@@ -44,11 +36,9 @@
 		246898EE2A2785C90050B13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		246898F12A2785C90050B13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		246898F32A2785C90050B13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		246898F82A2785CA0050B13A /* PracticeTDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeTDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		246898FC2A2785CA0050B13A /* PracticeTDDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTDDTests.swift; sourceTree = "<group>"; };
-		246899022A2785CA0050B13A /* PracticeTDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeTDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		246899062A2785CA0050B13A /* PracticeTDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTDDUITests.swift; sourceTree = "<group>"; };
-		246899082A2785CA0050B13A /* PracticeTDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2468991B2A28D2730050B13A /* PracticeTDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeTDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2468991D2A28D2740050B13A /* PracticeTDDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTDDTests.swift; sourceTree = "<group>"; };
+		246899262A2C36EA0050B13A /* MoneyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +49,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		246898F52A2785CA0050B13A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		246898FF2A2785CA0050B13A /* Frameworks */ = {
+		246899182A28D2730050B13A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				246898E42A2785C90050B13A /* PracticeTDD */,
-				246898FB2A2785CA0050B13A /* PracticeTDDTests */,
-				246899052A2785CA0050B13A /* PracticeTDDUITests */,
+				2468991C2A28D2740050B13A /* PracticeTDDTests */,
 				246898E32A2785C90050B13A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				246898E22A2785C90050B13A /* PracticeTDD.app */,
-				246898F82A2785CA0050B13A /* PracticeTDDTests.xctest */,
-				246899022A2785CA0050B13A /* PracticeTDDUITests.xctest */,
+				2468991B2A28D2730050B13A /* PracticeTDDTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,25 +87,17 @@
 				246898EE2A2785C90050B13A /* Assets.xcassets */,
 				246898F02A2785C90050B13A /* LaunchScreen.storyboard */,
 				246898F32A2785C90050B13A /* Info.plist */,
+				246899262A2C36EA0050B13A /* MoneyFormatter.swift */,
 			);
 			path = PracticeTDD;
 			sourceTree = "<group>";
 		};
-		246898FB2A2785CA0050B13A /* PracticeTDDTests */ = {
+		2468991C2A28D2740050B13A /* PracticeTDDTests */ = {
 			isa = PBXGroup;
 			children = (
-				246898FC2A2785CA0050B13A /* PracticeTDDTests.swift */,
+				2468991D2A28D2740050B13A /* PracticeTDDTests.swift */,
 			);
 			path = PracticeTDDTests;
-			sourceTree = "<group>";
-		};
-		246899052A2785CA0050B13A /* PracticeTDDUITests */ = {
-			isa = PBXGroup;
-			children = (
-				246899062A2785CA0050B13A /* PracticeTDDUITests.swift */,
-				246899082A2785CA0050B13A /* PracticeTDDUITestsLaunchTests.swift */,
-			);
-			path = PracticeTDDUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,41 +120,23 @@
 			productReference = 246898E22A2785C90050B13A /* PracticeTDD.app */;
 			productType = "com.apple.product-type.application";
 		};
-		246898F72A2785CA0050B13A /* PracticeTDDTests */ = {
+		2468991A2A28D2730050B13A /* PracticeTDDTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2468990F2A2785CA0050B13A /* Build configuration list for PBXNativeTarget "PracticeTDDTests" */;
+			buildConfigurationList = 246899212A28D2740050B13A /* Build configuration list for PBXNativeTarget "PracticeTDDTests" */;
 			buildPhases = (
-				246898F42A2785CA0050B13A /* Sources */,
-				246898F52A2785CA0050B13A /* Frameworks */,
-				246898F62A2785CA0050B13A /* Resources */,
+				246899172A28D2730050B13A /* Sources */,
+				246899182A28D2730050B13A /* Frameworks */,
+				246899192A28D2730050B13A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				246898FA2A2785CA0050B13A /* PBXTargetDependency */,
+				246899202A28D2740050B13A /* PBXTargetDependency */,
 			);
 			name = PracticeTDDTests;
 			productName = PracticeTDDTests;
-			productReference = 246898F82A2785CA0050B13A /* PracticeTDDTests.xctest */;
+			productReference = 2468991B2A28D2730050B13A /* PracticeTDDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		246899012A2785CA0050B13A /* PracticeTDDUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 246899122A2785CA0050B13A /* Build configuration list for PBXNativeTarget "PracticeTDDUITests" */;
-			buildPhases = (
-				246898FE2A2785CA0050B13A /* Sources */,
-				246898FF2A2785CA0050B13A /* Frameworks */,
-				246899002A2785CA0050B13A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				246899042A2785CA0050B13A /* PBXTargetDependency */,
-			);
-			name = PracticeTDDUITests;
-			productName = PracticeTDDUITests;
-			productReference = 246899022A2785CA0050B13A /* PracticeTDDUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,11 +151,7 @@
 					246898E12A2785C90050B13A = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					246898F72A2785CA0050B13A = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 246898E12A2785C90050B13A;
-					};
-					246899012A2785CA0050B13A = {
+					2468991A2A28D2730050B13A = {
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = 246898E12A2785C90050B13A;
 					};
@@ -220,8 +171,7 @@
 			projectRoot = "";
 			targets = (
 				246898E12A2785C90050B13A /* PracticeTDD */,
-				246898F72A2785CA0050B13A /* PracticeTDDTests */,
-				246899012A2785CA0050B13A /* PracticeTDDUITests */,
+				2468991A2A28D2730050B13A /* PracticeTDDTests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,14 +187,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		246898F62A2785CA0050B13A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		246899002A2785CA0050B13A /* Resources */ = {
+		246899192A28D2730050B13A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,40 +202,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				246898EA2A2785C90050B13A /* ViewController.swift in Sources */,
+				246899272A2C36EA0050B13A /* MoneyFormatter.swift in Sources */,
 				246898E62A2785C90050B13A /* AppDelegate.swift in Sources */,
 				246898E82A2785C90050B13A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		246898F42A2785CA0050B13A /* Sources */ = {
+		246899172A28D2730050B13A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				246898FD2A2785CA0050B13A /* PracticeTDDTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		246898FE2A2785CA0050B13A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				246899092A2785CA0050B13A /* PracticeTDDUITestsLaunchTests.swift in Sources */,
-				246899072A2785CA0050B13A /* PracticeTDDUITests.swift in Sources */,
+				2468991E2A28D2740050B13A /* PracticeTDDTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		246898FA2A2785CA0050B13A /* PBXTargetDependency */ = {
+		246899202A28D2740050B13A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 246898E12A2785C90050B13A /* PracticeTDD */;
-			targetProxy = 246898F92A2785CA0050B13A /* PBXContainerItemProxy */;
-		};
-		246899042A2785CA0050B13A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 246898E12A2785C90050B13A /* PracticeTDD */;
-			targetProxy = 246899032A2785CA0050B13A /* PBXContainerItemProxy */;
+			targetProxy = 2468991F2A28D2740050B13A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -486,16 +416,14 @@
 			};
 			name = Release;
 		};
-		246899102A2785CA0050B13A /* Debug */ = {
+		246899222A28D2740050B13A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P6K8M6RQ2W;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.r.t.astronomy.PracticeTDDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -506,16 +434,14 @@
 			};
 			name = Debug;
 		};
-		246899112A2785CA0050B13A /* Release */ = {
+		246899232A28D2740050B13A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P6K8M6RQ2W;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.r.t.astronomy.PracticeTDDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,42 +449,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeTDD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PracticeTDD";
-			};
-			name = Release;
-		};
-		246899132A2785CA0050B13A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P6K8M6RQ2W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.r.t.astronomy.PracticeTDDUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PracticeTDD;
-			};
-			name = Debug;
-		};
-		246899142A2785CA0050B13A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P6K8M6RQ2W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.r.t.astronomy.PracticeTDDUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PracticeTDD;
 			};
 			name = Release;
 		};
@@ -583,20 +473,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2468990F2A2785CA0050B13A /* Build configuration list for PBXNativeTarget "PracticeTDDTests" */ = {
+		246899212A28D2740050B13A /* Build configuration list for PBXNativeTarget "PracticeTDDTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				246899102A2785CA0050B13A /* Debug */,
-				246899112A2785CA0050B13A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		246899122A2785CA0050B13A /* Build configuration list for PBXNativeTarget "PracticeTDDUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				246899132A2785CA0050B13A /* Debug */,
-				246899142A2785CA0050B13A /* Release */,
+				246899222A28D2740050B13A /* Debug */,
+				246899232A28D2740050B13A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
