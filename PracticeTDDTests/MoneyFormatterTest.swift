@@ -9,7 +9,7 @@ import XCTest
 @testable import PracticeTDD
 
 
-final class PracticeTDDTests: XCTestCase {
+final class MoneyFormatterTest: XCTestCase {
 
     func test_入力した整数が小数点第二位まで0をつけた形に変換されること() {
         let formatter = MoneyFormatter()
