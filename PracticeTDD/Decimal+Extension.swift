@@ -7,14 +7,12 @@
 
 import Foundation
 
-struct MoneyFormatter {
+extension Decimal {
 
-    func string(decimal: Decimal) -> String {
+    var moneyString: String {
         let numberFormatter = NumberFormatter()
         numberFormatter.minimumFractionDigits = 2
         numberFormatter.roundingMode = .floor
-        let number = numberFormatter.string(from: decimal as NSDecimalNumber)
-        return "\(number ?? "")"
+        return numberFormatter.string(from: self as NSDecimalNumber) ?? ""
     }
-    
 }

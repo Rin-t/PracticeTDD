@@ -14,9 +14,10 @@
 		246898EF2A2785C90050B13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246898EE2A2785C90050B13A /* Assets.xcassets */; };
 		246898F22A2785C90050B13A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246898F02A2785C90050B13A /* LaunchScreen.storyboard */; };
 		2468991E2A28D2740050B13A /* MoneyFormatterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468991D2A28D2740050B13A /* MoneyFormatterTest.swift */; };
-		246899272A2C36EA0050B13A /* MoneyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246899262A2C36EA0050B13A /* MoneyFormatter.swift */; };
+		246899272A2C36EA0050B13A /* Decimal+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246899262A2C36EA0050B13A /* Decimal+Extension.swift */; };
 		24BB68F72A2E0B0E0076FD0C /* BudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BB68F62A2E0B0E0076FD0C /* BudgetTests.swift */; };
 		24BB68F92A2E0E1B0076FD0C /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BB68F82A2E0E1B0076FD0C /* Budget.swift */; };
+		24BB68FB2A2F570F0076FD0C /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BB68FA2A2F570F0076FD0C /* ViewControllerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +41,10 @@
 		246898F32A2785C90050B13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2468991B2A28D2730050B13A /* PracticeTDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeTDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2468991D2A28D2740050B13A /* MoneyFormatterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFormatterTest.swift; sourceTree = "<group>"; };
-		246899262A2C36EA0050B13A /* MoneyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFormatter.swift; sourceTree = "<group>"; };
+		246899262A2C36EA0050B13A /* Decimal+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Extension.swift"; sourceTree = "<group>"; };
 		24BB68F62A2E0B0E0076FD0C /* BudgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTests.swift; sourceTree = "<group>"; };
 		24BB68F82A2E0E1B0076FD0C /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		24BB68FA2A2F570F0076FD0C /* ViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +93,7 @@
 				246898EE2A2785C90050B13A /* Assets.xcassets */,
 				246898F02A2785C90050B13A /* LaunchScreen.storyboard */,
 				246898F32A2785C90050B13A /* Info.plist */,
-				246899262A2C36EA0050B13A /* MoneyFormatter.swift */,
+				246899262A2C36EA0050B13A /* Decimal+Extension.swift */,
 				24BB68F82A2E0E1B0076FD0C /* Budget.swift */,
 			);
 			path = PracticeTDD;
@@ -102,6 +104,7 @@
 			children = (
 				2468991D2A28D2740050B13A /* MoneyFormatterTest.swift */,
 				24BB68F62A2E0B0E0076FD0C /* BudgetTests.swift */,
+				24BB68FA2A2F570F0076FD0C /* ViewControllerTest.swift */,
 			);
 			path = PracticeTDDTests;
 			sourceTree = "<group>";
@@ -208,7 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				246898EA2A2785C90050B13A /* ViewController.swift in Sources */,
-				246899272A2C36EA0050B13A /* MoneyFormatter.swift in Sources */,
+				246899272A2C36EA0050B13A /* Decimal+Extension.swift in Sources */,
 				24BB68F92A2E0E1B0076FD0C /* Budget.swift in Sources */,
 				246898E62A2785C90050B13A /* AppDelegate.swift in Sources */,
 				246898E82A2785C90050B13A /* SceneDelegate.swift in Sources */,
@@ -221,6 +224,7 @@
 			files = (
 				24BB68F72A2E0B0E0076FD0C /* BudgetTests.swift in Sources */,
 				2468991E2A28D2740050B13A /* MoneyFormatterTest.swift in Sources */,
+				24BB68FB2A2F570F0076FD0C /* ViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
